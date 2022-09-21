@@ -1,1 +1,2 @@
-import 'umi/typings';
+import "umi/typings";
+import "dva-type";

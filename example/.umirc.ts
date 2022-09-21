@@ -1,3 +1,7 @@
-export default {
-  npmClient: 'pnpm'
-};
+import { defineConfig } from "umi";
+
+export default defineConfig({
+  npmClient: "pnpm",
+  dva: {},
+  plugins: ["@umijs/plugins/dist/dva"],
+});
