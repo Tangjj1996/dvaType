@@ -34,8 +34,10 @@ importers:
   packages/dvaType:
     specifiers:
       dva: ^2.4.1
+      react-redux: ^8.0.2
     devDependencies:
       dva: 2.4.1
+      react-redux: 8.0.2
 
 packages:
 
@@ -6876,6 +6878,35 @@ packages:
       loose-envify: 1.4.0
       prop-types: 15.8.1
       redux: 3.7.2
+    dev: true
+
+  /react-redux/8.0.2:
+    resolution: {integrity: sha512-nBwiscMw3NoP59NFCXFf02f8xdo+vSHT/uZ1ldDwF7XaTpzm+Phk97VT4urYBl5TYAPNVaFm12UHAEyzkpNzRA==}
+    peerDependencies:
+      '@types/react': ^16.8 || ^17.0 || ^18.0
+      '@types/react-dom': ^16.8 || ^17.0 || ^18.0
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+      react-native: '>=0.59'
+      redux: ^4
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+      redux:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.19.0
+      '@types/hoist-non-react-statics': 3.3.1
+      '@types/use-sync-external-store': 0.0.3
+      hoist-non-react-statics: 3.3.2
+      react-is: 18.2.0
+      use-sync-external-store: 1.2.0
     dev: true
 
   /react-redux/8.0.2_72pdv3dc5ztr3wzahtmf45rooq:

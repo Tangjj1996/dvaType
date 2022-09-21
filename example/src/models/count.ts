@@ -1,6 +1,6 @@
 const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
 
-export default {
+const model = {
 	namespace: "count",
 	state: {
 		num: 0,
@@ -17,3 +17,5 @@ export default {
 		},
 	},
 };
+
+export default model;

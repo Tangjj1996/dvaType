@@ -1,5 +1,3 @@
-import { Effect } from "dva";
+import { Model as DvaModel, EffectsCommandMap, EffectType } from "dva";
 
-declare interface A {
-	name: string;
-}
+export {};
