@@ -1,6 +1,7 @@
 {
-  "name": "dvaType",
-  "version": "1.0.0",
+  "name": "dva-type",
+  "version": "0.0.0",
+  "private": "true",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.23.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0"
   }
 }

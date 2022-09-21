@@ -1,12 +1,21 @@
 {
   "name": "dva-type",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
-  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dva": "^2.4.1"
+  },
+  "peerDependencies": {
+    "dva": "^2.4.1"
+  }
 }
